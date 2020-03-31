@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_margin="10dp"
+
+    app:cardCornerRadius="20dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/woman_yellow" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/woman_yellow" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1dp"
+            android:layout_height="280dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/woman_yellow"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txtfecha"
+            android:layout_width="108dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="36dp"
+            android:text="22:30"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.147"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="68dp"
+            android:text="El Mejor trabajo del mundo"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.834"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTitulo2"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:text="Detalles del trabajo"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtdescripcion"
+            android:layout_width="308dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="208dp"
+            android:lines="4"
+            android:textStyle="bold|italic"
+            android:text="Consite en tal y tal cosa que la verdad no se que estoy hacendo blab bla bla bla bla bla bla bla .... "
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="88dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="68dp"
+            android:gravity="center"
+            android:text="Publicacion:"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="104dp"
+            android:gravity="center"
+            android:text="Solicitado por:"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="280dp"
+            android:gravity="center"
+            android:text="Fecha de cita:"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.066"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="328dp"
+            android:gravity="center"
+            android:text="Fecha del trabajo:"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.066"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtnombreU"
+            android:layout_width="190dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="112dp"
+            android:gravity="center"
+            android:text="Alddx"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="213dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:text="Decripcion del trabajo:"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtCita"
+            android:layout_width="131dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="288dp"
+            android:text="20-02-2020"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.804"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtfechatra"
+            android:layout_width="131dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="336dp"
+            android:text="20-02-2020"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="101dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_basic"
+            android:text="Cancelar"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDireccion"
+            app:layout_constraintVertical_bias="0.94"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_basic"
+            android:text="Aceptar trabajo"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDireccion"
+            app:layout_constraintVertical_bias="0.94"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnsolicitar"
+            android:layout_width="107dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_basic"
+            android:text="Aceptar cita"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.981"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDireccion"
+            app:layout_constraintVertical_bias="0.94"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

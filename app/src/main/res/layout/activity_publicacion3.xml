@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.Publicacion3">
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="101dp"
+        android:src="@drawable/fup_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:text="Llena todos los datos. Cada detalle es sumamente necesario"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="345dp"
+        android:layout_height="544dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.056">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="Escribe actividades extra"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/txtextra"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Aparte realizo.."
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="Escribe la tarifa del servicio por hora"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/txttarifa"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="$500"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:text="Disposicion de horarios"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/txtdispo"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Trabajo de..."
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Distancia  de expasion de la publicación"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/txtradio"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="5..."
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary" />
+
+
+        <Button
+            android:id="@+id/btnpublicarTra"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_basic"
+            android:text="Publicar"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

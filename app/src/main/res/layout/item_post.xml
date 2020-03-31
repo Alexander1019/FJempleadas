@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/woman_yellow" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/woman_yellow" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="1dp"
+            android:layout_height="280dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/woman_yellow"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txtpost_fecha"
+            android:layout_width="108dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:text="22:30"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.161"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp"
+            android:text="El Mejor trabajo del mundo"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="@+id/txtnombre"
+            app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+        <TextView
+            android:id="@+id/txtCategoria"
+            android:layout_width="175dp"
+            android:layout_height="19dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/txtnombre"
+            app:layout_constraintHorizontal_bias="0.153"
+            app:layout_constraintStart_toStartOf="@+id/txtTitulo"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+        <TextView
+            android:id="@+id/txtdescripcion"
+            android:layout_width="308dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:lines="4"
+            android:text="Consite en tal y tal cosa que la verdad no se que estoy hacendo blab bla bla bla bla bla bla bla .... "
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.982"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCategoria" />
+
+        <TextView
+            android:id="@+id/txtnombre"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Naiby Aguilar Morales"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/iconopersona"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.864"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="8dp" />
+
+
+        <TextView
+            android:id="@+id/txtTarifa"
+            android:layout_width="131dp"
+            android:layout_height="16dp"
+            android:text="500"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.302"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.73" />
+
+        <TextView
+            android:id="@+id/txtTarifa2"
+            android:layout_width="12dp"
+            android:layout_height="16dp"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.73" />
+
+        <Button
+            android:id="@+id/btnsolicitar"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_basic"
+            android:text="Ver solicitudes"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.921"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
